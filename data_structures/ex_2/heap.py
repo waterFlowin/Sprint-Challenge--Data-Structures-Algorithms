@@ -17,7 +17,7 @@ class Heap:
     self.size -= 1
     self.storage.pop()
     self._sift_down(1)
-    return retval 
+    return retval
 
   def get_max(self):
     return self.storage[1]
